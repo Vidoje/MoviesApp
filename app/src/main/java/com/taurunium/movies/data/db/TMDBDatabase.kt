@@ -1,0 +1,7 @@
+package com.taurunium.movies.data.db
+
+import androidx.room.RoomDatabase
+
+
+abstract class TMDBDatabase : RoomDatabase(){
+}
