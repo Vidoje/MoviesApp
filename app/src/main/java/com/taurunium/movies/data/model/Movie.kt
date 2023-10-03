@@ -1,4 +1,4 @@
-package com.taurunium.movies.data
+package com.taurunium.movies.data.model
 
 import androidx.room.Entity
 import com.google.gson.annotations.SerializedName
