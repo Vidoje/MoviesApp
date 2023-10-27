@@ -35,7 +35,7 @@ class MovieAdapter() : RecyclerView.Adapter<MovieAdapter.MyViewHolder>() {
     class MyViewHolder(val binding: ListItemBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(movie: Movie) {
             binding.titleTextView.text = movie.title
-            binding.descriptionTextView.text = movie.overview
+            binding.descTextView.text = movie.overview
 
             val posterURL = "https://image.tmdb.org/t/p/w500/" + movie.posterPath
 
